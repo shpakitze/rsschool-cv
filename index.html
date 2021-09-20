@@ -1,71 +1,188 @@
-<!doctype html>
-<html lang="ru">
-  <head>
-    <title>Page title</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-  <header>
-  </header>
-  <div class="main">
-    <div class="main_info"> 
-      <div class="foto">
-      </div>  
-        <h1 class="myname">Shpak Andrei</h1>
-        <p class="notes">developer, may be</p>
-     </div>
-    <div class="container">
-      <div class="left_bar" >
-        <div class="life info">
-          <h1></h1>
-        </div>
-        <div class="contacts">
-            <h1>Contacts</h1>
-        <ul>
-            <li>kwark@tut.by</li>
-            <li>https://github.com/shpakitze</li>
-        </ul>
-        </div>
-        
-      </div>
-      <div class="main_bar">
-      <div class="skills">
-        <h1> Skills</h1>
-        <ul>
-            <li>some Linux (Archlinux)</li>
-            <li>С++, С#. (itstep)</li>
-            <li>some SQL (via sql-ex.ru)</li>
-            <li>CCNA Introduction to Networks course</li>
-        </ul>
-        
-      </div>
-      <div class="education">
-        <h1> Education </h1>
-        <p>Belarusian State Pedagogical University </p>
-        <p>2004-2009 Specialty: Mathematics and informatics</p> 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <title>HTML CV</title>
+    </head>
+    <body>
+            <section class="sheet">
+                <aside>
+                    <section>
+                      <h3 class="none">avatar</h3>
+                        <img src="/123-t.png" alt="avatar">
+                    </section>
+                    <section class="contact">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <p><i class="fa fa-map-marker-alt"></i>Minsk, Belarus</p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-phone"></i><a href="tel:00000000">(29) 101-01-10</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-envelope"></i><a href="mailto:1@mymail">mymail@mail.my</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-globe"></i><a href="https://127.0.0.1">127.0.0.1</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fa fa-github"></i><a href="https://github.com/shpakitze">github.com/shpakitze</a></p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li><span>JS Development</span></li>
+                            <li><span>ISP Support</span></li>
+                            <li><span>Math</span></li>
+                            <li><span>some Linux (Archlinux)</span></li>
+                            <li><span>С++, С#. (itstep)</span></li>
+                            <li><span>some SQL (via sql-ex.ru)</span></li>
+                            <li><span>CCNA Introduction to Networks course</span></li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li><span>JavaScript</span></li>
+                            <li><span>TypeScript</span></li>
+                            <li><span>HTML5</span></li>
+                            <li><span>CSS3</span></li>
+                            <li><span>Angular</span></li>
+                            <li><span>C#</span></li>
+                        </ul>
+                    </section>
+                    <section class="references">
+                        <h3>References</h3>
+                        <address>
+                            Andrei Shpak<br />
+                            Minsk, Belarus<br />
+                            (29)100-00-10
+                        </address>
+                    </section>
+                </aside>
+                <main>
+                    <header class="name">
+                        <h2>Andrei Shpak</h2>   
+                    </header>
+                    <section>
+                        <section class="summary">
+                            <h2>Summary</h2>
+                            <p>Junior software engineer without lots of experience</p>
+                                
+                        </section>
+                        <section class="experience">
+                            <h3>Experience</h3>
+                            <ol>
+                                <li>
+                                    <header>
+                                        <h4>Technical support engineer</h4>
+                                        <p>2011 – Present</p>
+                                    </header>
+                                    <span>Solo\atlant-telecom\velcom\A1</span>
+                                    
+                                </li>
+                                <li>
+                                    <header>
+                                        <h4>Math teacher</h4>
+                                        <p>2009 – 2011</p>
+                                    </header>
+                                    <span>School in Polotsk</span>
+                                    
+                                </li>
+                                <li>
+                                    <header>
+                                        <h4>technical support engineer</h4>
+                                        <p>2007 – 2009</p>
+                                    </header>
+                                    <span>BSPU</span>
+                                    
+                                </li>
+                            </ol>
+                        </section>
+                        <section class="education">
+                            <h3>Education</h3>
+                            <ol>
+                                <li>
+                                    <div>
+                                        <h4>Math teacher</h4>
+                                        <p>2004 - 2009</p>
+                                    </div>
+                                    <div>
+                                        <span>Belarusian State Pedagogical University</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                            </ol>
+                        </section>
+                        <section class="code">
+                          <h2>Some code</h2>
+                          <h6>JS</h6>
+                            <pre><code class="language-js">
+function encodeLine(str) {
+  let res = '';
+  let cursym = str[0];
+  let count = 1;
+  for (let i = 1; i < str.length; i++) {
+    if ((cursym !== str[i])) {
+    res += (count !== 1) ? `${count}${cursym}` : `${cursym}`;
+    count = 1;
+    cursym = str[i];
+    } else count += 1;
+  }
+    if (res[res.length] !== cursym) res += (count !== 1) ? `${count}${cursym}` : `${cursym}`;
+    return res;
+}
+                            </code></pre>
+                            <h6>C#</h6>
+                            <pre><code>
+public class Program
+{
+	public static int[] GetPrimeNumbers(int start, int end)
+	{
+		if (( end < start) || (start < 2)) throw new ArgumentException();
+		List<int> result = new List<int>();
+		for (int i = start; i <= end; i++)
+		{
+			if (IsPrime(i)) 
+			{
+				result.Add(i);
+			}
+		}
+		return result.ToArray();
+	}
+	public static bool IsPrime(int n)
+	{
+		for (int i = 2; i <= Math.Sqrt(n); i++)
+		{
+			if (n % i == 0) {return false;}
+		}
+	return true;
+	}
+                            </code></pre>
+                        </section>
+                    </section>
+                </main>
+            </section>
+  <footer>
+    <div>
+      <img src="https://rs.school/images/rs_school_js.svg" width="80px" alt="">
+      <a href="https://rs.school/js/" class="rs">rs school</a>
+    </div>
+    <div>
+      <i class="fa fa-github"></i><a href="https://github.com/shpakitze" class="rs">https://github.com/shpakitze</a>
+    </div>
 
-        </div>
-      <div class="work_Experience">
-      <h1>Work Experience</h1>
-          <ul>
-          <li><h3>technical support engineer</h3>
-            Solo\atlant-telecom\velcom\A1 2011 - present day
-             
-          </li>
-          <li> <h3>Math teacher</h3> 
-            School in Polotsk 2009-2011</li>
-          <li>
-            <h3>technical support engineer</h3>
-            BSPU 2007-2009</li>
-      </ul>
-      
-      </div>
-      
-      </div>
-    </div>
-    </div>
-    
-  </body>
+  </footer>
+        <script src="./index.js"></script>
+    </body>
 </html>
